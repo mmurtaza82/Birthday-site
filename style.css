@@ -1,0 +1,87 @@
+
+body {
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    background: linear-gradient(#a2d2ff, pink, lightblue);
+    color: #ffffff;
+    
+    
+}
+#cute-img {
+   width: 150px;
+   border-radius: 50%;
+   border: 6px solid #EFB0C9;
+   
+}
+.bday-age {
+    background: #EFB0C9;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px 0 10px 0;
+   
+}
+.bday-date {
+    background: #EFB0C9;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+h1 {
+    text-shadow: 0 0 4px black;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+.gift-section {
+    margin-top: 50px;
+}
+.cake-img {
+    background-image: url(surprise.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #EFB0C9;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.cake-img:hover {
+    background-image: url(cake.jpg);
+}
+#watch-img {
+    background-image: url(surprise.jpg);
+}
+#watch-img:hover {
+    background-image: url(watch.jpeg);
+}
+#bday-wish {
+    background-image: url(surprise.jpg);
+}
+#bday-wish:hover {
+    background-image: url(wishes.jpeg);
+}
+.cake-text {
+    text-shadow: 0 0 4px black;
+    margin-bottom: 10px;
+    
+}
+.shadow-text {
+    margin-top: 0;
+    text-shadow: 0 0 5px chocolate;
+    color:beige;
+}
+#footer {
+    margin: 40px auto 20px;
+    color: black;
+    font-style: italic;
+
+}
+a {
+    color: goldenrod;
+    font-weight: bold;
+}
